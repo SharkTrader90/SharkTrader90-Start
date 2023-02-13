@@ -67,8 +67,8 @@ public class GuideTest {
     @Test
     public void basicsTest2(){
 
-        String inputMessage = "test";
-        String expected = "Success from guide object 1! it says: test";
+        String inputMessage = "testing";
+        String expected = "Success from guide object 1! it says: testing";
         String actual = g.guideMethod(inputMessage);
         System.out.println("Expected: "+expected);
         System.out.println("Actual: "+actual);
